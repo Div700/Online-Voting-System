@@ -1,0 +1,179 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #aad5f1;
+    background-image: url("two.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    /* cursor: url("hand1.png"),auto;; */
+  }
+
+  .container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px 0 0 180px;
+    position: relative;
+    width: 900px;
+    height: 600px;
+  }
+
+  h1 {
+    color: #34586e;
+    font-family: Times New Roman;
+
+  }
+
+  .voter-info {
+    margin-top: 20px;
+    font-family: Courier;
+  }
+
+  label {
+    color: #3498db;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .voter-info p {
+    font-size: 20px;
+    margin: 0;
+    font-family: Courier;
+  }
+
+  #name,
+  #voterId {
+    color: #333;
+    font-family: Courier;
+  }
+
+  .candidates label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: Courier;
+  }
+
+  .candidates input[type="radio"] {
+    margin-right: 5px;
+    
+  }
+
+  .candidate-details {
+    color: #3498db;
+    font-family: Courier;
+    /* font-style: bold; */
+  }
+
+  .candidates label input[type="radio"] {
+    vertical-align: middle;
+  }
+
+  .candidates label {
+    display: flex;
+    align-items: center;
+    /* font-family: Courier; */
+  }
+
+  .candidates label:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+  }
+
+  .candidates label:hover input[type="radio"] {
+    background-color: #3498db;
+    color: #fff;
+  }
+
+  input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* cursor: url("hand1.png"),auto; */
+  }
+
+  input[type="submit"]:hover {
+    background-color: #2577a9;
+    
+  }
+
+  body {
+    /* background: #222733; */
+    padding: 20px;
+  }
+  
+  .options {
+    background:#0a202d;
+    height: 200px;
+    width: 60%;
+    margin: 0 0 0 47px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow:scroll;
+    border-radius:3px;
+    flex-direction: column;
+    /* position: absolute; */
+    /* overflow-y: auto; */
+    /* cursor: url("hand1.png") 2 2,auto; */
+  }
+  
+  .options div {
+    margin: 10px 15px;
+  }
+  
+  input[type="radio"] {
+    display: none; }
+  
+  input[type="radio"] + label {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px; }
+  
+  input[type="radio"] + label span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin: -1px 7px 0 0;
+    vertical-align: middle;
+    cursor:url("hand1.png") 2 2,auto;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 50px;
+    height: 35px;
+  }
+  
+  input[type="radio"] + label span {
+    border: 2px solid rgba(255,255,255,0.8) }
+  
+  input[type="radio"]:checked + label span {
+    border: 2px solid #D4E280;
+    background-color: #B6CD2F; 
+    -webkit-box-shadow: 0px 0px 3px 3px rgba(182,205,47,0.6);
+    -moz-box-shadow: 0px 0px 3px 3px rgba(182,205,47,0.6);
+    box-shadow: 0px 0px 3px 3px rgba(182,205,47,0.6);
+    
+  }
+  ed + label span {
+    -webkit-transition: background-color 0.4s linear;
+    -o-transition: background-color 0.4s linear;
+    -moz-transition: background-color 0.4s linear;
+    transition: background-color 0.4s linear; }
+  

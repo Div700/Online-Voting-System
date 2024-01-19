@@ -1,0 +1,85 @@
+
+      body {
+        font-family: Avenir, sans-serif;
+        background-image: url("votesbg2.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .login-container {
+        border-radius: 25px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        height: 320px;
+        /* color: #1b4a7c; */
+        background-color: rgb(239, 225, 226);
+      }
+
+      .login-container h2{
+        
+        color: #1b4a7c;
+        margin: 0 0 50px;
+        font-size: 20px;
+      }
+
+      .login-container .cta button{
+        
+        color: #1b4a7c;
+      }
+
+      .login-container .cta button:hover{
+        color: whitesmoke;
+      }
+
+
+     
+
+      .login-container input[type=text] {
+        width: 80%;
+        padding: 10px;
+        /* padding-left: 5px; */
+        margin: 5px 0 30px 0;
+        border: 1.2px solid;
+        border-radius: 10px;
+      }
+      .login-container input[type=password] {
+        width: 80%;
+        padding: 10px;
+        margin: 5px 0 30px 0px;
+        border: 1.2px solid;
+        border-radius: 10px;
+      }
+    
+      
+      
+      .button {
+        padding: 15px 25px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #1b4a7c;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0px 9px #999;
+      }
+      
+      .button:hover {background-color: #1b4a7c}
+      
+      .button:active {
+        background-color: #1b4a7c;
+        box-shadow: 0px 5px #666;
+        transform: translateY(4px);
+      }
+      
+
+      

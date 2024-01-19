@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrong Credentials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #777;
+        }
+        #error-message {
+            color: #FF0000; /* Red color for the error message */
+        }
+        #login-button {
+            background-color: #0074D9; /* Blue color for the login button */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wrong Credentials</h1>
+        <p id="error-message">Incorrect username or password. Please try again.</p>
+        <button id="login-button">Try Again</button>
+    </div>
+
+    <script>
+        document.getElementById("login-button").addEventListener("click", function() {
+            // Redirect to a different page when the button is clicked
+            window.location.href = "login.html";
+        });
+    </script>
+</body>
+</html>
+
